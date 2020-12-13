@@ -4,8 +4,9 @@
 }
 
 .warning {
+  background-color: blue;
   color: orange;
-  size: 18pt;
+  font-size:18pt;
 }
 
 table {
