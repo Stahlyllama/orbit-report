@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+tr:nth-child(3N-1) {
+  background-color: rgb(159, 127, 196);
+}
+tr:nth-child(3N) {
+  background-color: rgb(97, 105, 218);
+}
+tr:nth-child(3N-2) {
+  background-color: rgb(108, 174, 228);
+}

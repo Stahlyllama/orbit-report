@@ -17,6 +17,5 @@ shouldShowWarning (): boolean {
 if (this.type === 'Space Debris') {
   return true;
 };
-
-};
+}
 }
