@@ -1,11 +1,11 @@
 
 <h3>Satellite Counts:</h3>
 <div class="counts">
-   <div>Total: <span >9</span></div>
-   <div>Space Debris: <span>1</span></div>
-   <div>Communication: <span>2</span></div>
-   <div>Probe: <span>2</span></div>
-   <div>Positioning: <span>1</span></div>
-   <div>Space Station: <span>2</span></div>
-   <div>Telescope: <span>1</span></div>
+   <div>Total: <span>{{satellites.length}} </span></div>
+   <div>Space Debris: <span>{{satelliteTypeCount('Space Debris')}}</span></div>
+   <div>Communication: <span>{{satelliteTypeCount('Communication')}}</span></div>
+   <div>Probe: <span>{{satelliteTypeCount('Probe')}}</span></div>
+   <div>Positioning: <span>{{satelliteTypeCount('Positioning')}}</span></div>
+   <div>Space Station: <span>{{satelliteTypeCount('Space Station')}}</span></div>
+   <div>Telescope: <span>{{satelliteTypeCount('Telescope')}}</span></div>
 </div>
